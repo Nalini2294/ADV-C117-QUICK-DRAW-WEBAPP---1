@@ -1,0 +1,50 @@
+body{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+h1{
+    font-variant: small-caps;
+    margin-left: 100px;
+    color: blue;
+}
+
+#score{
+    font-size: 23px; 
+    margin-right: 450px;
+   
+}
+
+#timer{
+    font-size: 23px;
+    margin-left: 450px;
+}
+
+#canvas
+{
+    border: 5px solid rgb(171, 27, 255);
+    border-radius: 22px;
+    margin-top: 200px;
+}
+
+
+p{
+    font-size: 23px;
+    font-weight: bold;
+    font-style: normal;
+    color: none;
+}
+
+#draw_canvas{
+    color: red;
+}
+
+#show_sketch{
+    float:right;
+}
+ 
+@keyframes example 
+{
+    from{box-shadow: 1px 1px 30px rgb(143, 143, 143);}
+    to{box-shadow: 1px 1px 30px rgb(171, 27, 255);}
+}
